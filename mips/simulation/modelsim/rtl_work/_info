@@ -1,0 +1,353 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/YandexDisk/FPGAPRoject/mips/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1651138207
+!i10b 1
+!s100 IzJo3l4R3SXPzdWP1n;ja3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6=?eAM?KBBFE65Q]k0U1T2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1651091794
+8F:/YandexDisk/FPGAPRoject/mips/alu.sv
+FF:/YandexDisk/FPGAPRoject/mips/alu.sv
+!i122 6
+L0 1 44
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1651138207.000000
+!s107 F:/YandexDisk/FPGAPRoject/mips/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/alu.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips
+Z9 tCvgOpt 0
+vALUControl
+R1
+R2
+!i10b 1
+!s100 KB<om2<6OhI<T7EDfROeY1
+R3
+IVgoeeBMk@7YaP`PiDHR4Q1
+R4
+S1
+R0
+w1651008953
+8F:/YandexDisk/FPGAPRoject/mips/ALUControl.sv
+FF:/YandexDisk/FPGAPRoject/mips/ALUControl.sv
+!i122 7
+L0 1 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/ALUControl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/ALUControl.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@u@control
+vcontrolUnit
+R1
+R2
+!i10b 1
+!s100 F_;L@;R5OnCX_7_]m7PUm3
+R3
+Ia?^g3bSmnk25C7MGGZYaB1
+R4
+S1
+R0
+w1651079321
+8F:/YandexDisk/FPGAPRoject/mips/controlUnit.sv
+FF:/YandexDisk/FPGAPRoject/mips/controlUnit.sv
+!i122 10
+L0 1 243
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/controlUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/controlUnit.sv|
+!i113 1
+R7
+R8
+R9
+ncontrol@unit
+vinstr_memory
+R1
+R2
+!i10b 1
+!s100 e`OEgklze<^?VHaR88C`S1
+R3
+I7DCgM^aAb[Rfn?iC1XTB?2
+R4
+S1
+R0
+w1651094653
+8F:/YandexDisk/FPGAPRoject/mips/instr_memory.sv
+FF:/YandexDisk/FPGAPRoject/mips/instr_memory.sv
+!i122 4
+L0 1 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/instr_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/instr_memory.sv|
+!i113 1
+R7
+R8
+R9
+vinstr_reg
+R1
+R2
+!i10b 1
+!s100 @^<8A?Vi8PK>EEObTR7Xo3
+R3
+IJ=LW3BFRfPDCgz7>`baC`1
+R4
+S1
+R0
+w1651097255
+8F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv
+FF:/YandexDisk/FPGAPRoject/mips/instr_reg.sv
+!i122 9
+L0 1 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv|
+!i113 1
+R7
+R8
+R9
+vmips_top
+R1
+R2
+!i10b 1
+!s100 hOlfk8XDzD8alMdLN78];2
+R3
+I1LG7fhR27n1]^Gd^@b>>Y3
+R4
+S1
+R0
+w1651097749
+8F:/YandexDisk/FPGAPRoject/mips/mips_top.sv
+FF:/YandexDisk/FPGAPRoject/mips/mips_top.sv
+!i122 11
+L0 1 168
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/mips_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/mips_top.sv|
+!i113 1
+R7
+R8
+R9
+vmult_2to1
+R1
+Z10 !s110 1651138206
+!i10b 1
+!s100 V74YNfP=1:TH:=XHX[TP^3
+R3
+ImWFUS>i]B8Ro<nZ0zXddN3
+R4
+S1
+R0
+w1651094355
+8F:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv
+FF:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv
+!i122 1
+L0 1 13
+R5
+r1
+!s85 0
+31
+Z11 !s108 1651138206.000000
+!s107 F:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv|
+!i113 1
+R7
+R8
+R9
+vmult_3to1
+R1
+R2
+!i10b 1
+!s100 <@?_I9Y;P`zm[dY7i=cG60
+R3
+IPd=j>Y:aBGTE0A][b[C2]0
+R4
+S1
+R0
+w1651093669
+8F:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv
+FF:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv
+!i122 3
+L0 1 19
+R5
+r1
+!s85 0
+31
+R11
+!s107 F:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv|
+!i113 1
+R7
+R8
+R9
+vmult_4to1
+R1
+R10
+!i10b 1
+!s100 Nkd=[J4bdNcczbPaLUicj1
+R3
+IUEbg2VLU3Q;TZSOjI>8kF0
+R4
+S1
+R0
+w1651093739
+8F:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv
+FF:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv
+!i122 2
+L0 1 17
+R5
+r1
+!s85 0
+31
+R11
+!s107 F:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv|
+!i113 1
+R7
+R8
+R9
+vmultiplyBy4
+R1
+R2
+!i10b 1
+!s100 >98>WnLNzhP=9WCE;]io]1
+R3
+IK[5b0AiD6`b<803`6V2Bj3
+R4
+S1
+R0
+w1651011149
+8F:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv
+FF:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv
+!i122 12
+L0 1 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv|
+!i113 1
+R7
+R8
+R9
+nmultiply@by4
+vProgramCounter
+R1
+R10
+!i10b 1
+!s100 WgUXaFh@Xo6a3@<VJY;IE2
+R3
+I=fzlf`CS20]d]2gN`g[fE0
+R4
+S1
+R0
+w1651093516
+8F:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv
+FF:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv
+!i122 0
+L0 1 15
+R5
+r1
+!s85 0
+31
+R11
+!s107 F:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv|
+!i113 1
+R7
+R8
+R9
+n@program@counter
+vreg_file
+R1
+R2
+!i10b 1
+!s100 Unhc<EGIMme_Q;];4N@Bh3
+R3
+I`h8[Vzc@EH;O0m3A872YE1
+R4
+S1
+R0
+w1651097770
+8F:/YandexDisk/FPGAPRoject/mips/reg_file.sv
+FF:/YandexDisk/FPGAPRoject/mips/reg_file.sv
+!i122 5
+L0 1 58
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/reg_file.sv|
+!i113 1
+R7
+R8
+R9
+vsign_extend
+R1
+R2
+!i10b 1
+!s100 f6HcaXlhi_l1CS`J2dKlf0
+R3
+ILVd?dVmS>IYhYS?f0]RQM1
+R4
+S1
+R0
+w1650558724
+8F:/YandexDisk/FPGAPRoject/mips/sign_extend.sv
+FF:/YandexDisk/FPGAPRoject/mips/sign_extend.sv
+!i122 8
+L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/YandexDisk/FPGAPRoject/mips/sign_extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/YandexDisk/FPGAPRoject/mips|F:/YandexDisk/FPGAPRoject/mips/sign_extend.sv|
+!i113 1
+R7
+R8
+R9

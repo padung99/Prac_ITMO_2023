@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 11 19:54:36 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : mips_top
+Top-level Entity Name : mips_top
+Family : Cyclone IV E
+Device : EP4CE30F23I7
+Timing Models : Final
+Total logic elements : 752 / 28,848 ( 3 % )
+    Total combinational functions : 728 / 28,848 ( 3 % )
+    Dedicated logic registers : 117 / 28,848 ( < 1 % )
+Total registers : 117
+Total pins : 34 / 329 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 608,256 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

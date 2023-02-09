@@ -1,0 +1,1765 @@
+# Reading pref.tcl
+# do mips_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 12:30:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 12:30:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 12:30:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/instr_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/ALUControl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/sign_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: F:/YandexDisk/FPGAPRoject/mips/instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/controlUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/mips_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+F:/YandexDisk/FPGAPRoject/mips {F:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:30:07 on Apr 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/YandexDisk/FPGAPRoject/mips" F:/YandexDisk/FPGAPRoject/mips/multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 12:30:07 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+ls
+# ALUControl.sv             mips_top.qsf                        
+# ALUControl.sv.bak         mips_top.sdc                        
+# ProgramCounter.sv         mips_top.sdc.bak                    
+# ProgramCounter.sv.bak     mips_top.sv                         
+# alu.sv                    mips_top.sv.bak                     
+# alu.sv.bak                mips_top_description.txt            
+# alu_alucontrol_tb.sv      mips_top_nativelink_simulation.rpt  
+# alu_alucontrol_tb.sv.bak  mips_top_tb.sv                      
+# c5_pin_model_dump.txt     mips_top_tb.sv.bak                  
+# controlUnit.sv            mult_2to1.sv                        
+# controlUnit.sv.bak        mult_2to1.sv.bak                    
+# controlUnit_tb.sv         mult_3to1.sv                        
+# controlUnit_tb.sv.bak     mult_3to1.sv.bak                    
+# db                        mult_4to1.sv                        
+# incremental_db            mult_4to1.sv.bak                    
+# instr_memory.sv           multiplyBy4.sv                      
+# instr_memory.sv.bak       multiplyBy4.sv.bak                  
+# instr_reg.sv              output_files                        
+# instr_reg.sv.bak          reg_file.sv                         
+# instr_reg_tb.sv           reg_file.sv.bak                     
+# instr_reg_tb.sv.bak       reg_file_tb.sv                      
+# make_alu_alucontrol.do    reg_file_tb.sv.bak                  
+# make_controlUnit.do       sign_extend.sv                      
+# make_instr_reg.do         sign_extend.sv.bak                  
+# make_mips_top.do          simulation                          
+# make_reg_file.do          vsim.wlf                            
+# mips.qpf                  work                                
+make make_mips_top.do 
+# invalid command name "make"
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:17 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 12:39:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 12:39:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mips_top_tb 
+# Start time: 12:39:19 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/mips_top_tb/DUT/inst_reg_file/mem_reg_file
+add wave -position insertpoint  \
+sim:/mips_top_tb/DUT/inst_reg_file/mem_reg_file
+add wave -position end  /mips_top_tb/DUT/inst_instr_memory/mem
+add wave \
+{/mips_top_tb/DUT/inst_reg_file/mem_reg_file[4]} 
+add wave \
+{/mips_top_tb/DUT/inst_reg_file/mem_reg_file[4]}
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:31 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 13:33:31 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:31 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 13:33:32 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:32 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 13:33:33 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:33 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 13:33:33 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:33 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 13:33:33 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:33 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 13:33:33 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:34 on Apr 28,2022, Elapsed time: 0:54:15
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 13:33:34 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:17 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 13:35:17 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:17 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 13:35:18 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:18 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 13:35:19 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 13:35:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 13:35:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:35:19 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 13:35:19 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:35:20 on Apr 28,2022, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 13:35:20 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 13:59:05 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 13:59:05 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 13:59:05 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 13:59:05 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 13:59:05 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:05 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:59:06 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 13:59:06 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:59:07 on Apr 28,2022, Elapsed time: 0:23:47
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 13:59:07 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:51 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 19:15:52 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:52 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 19:15:53 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:53 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 19:15:53 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:53 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 19:15:53 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:53 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 19:15:53 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:53 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 19:15:53 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:15:54 on Apr 28,2022, Elapsed time: 5:16:47
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 19:15:54 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:14 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 19:54:14 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:14 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 19:54:14 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:14 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 19:54:14 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:14 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:54:14 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:14 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 19:54:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:15 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 19:54:16 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:54:16 on Apr 28,2022, Elapsed time: 0:38:22
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 19:54:16 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:09 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 20:00:09 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:09 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 20:00:09 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:09 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 20:00:09 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:09 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 20:00:09 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:09 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 20:00:10 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:10 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 20:00:11 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:00:11 on Apr 28,2022, Elapsed time: 0:05:55
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 20:00:11 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 20:02:45 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 20:02:45 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 20:02:45 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 20:02:45 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:02:45 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:45 on Apr 28,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:46 on Apr 28,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 20:02:46 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:02:48 on Apr 28,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 20:02:48 on Apr 28,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:53 on Apr 29,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 00:50:54 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:54 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:55 on Apr 29,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 00:50:55 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:50:56 on Apr 29,2022, Elapsed time: 4:48:08
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 00:50:58 on Apr 29,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+do make_mips_top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv controlUnit.sv 
+# -- Compiling module controlUnit
+# 
+# Top level modules:
+# 	controlUnit
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv instr_reg.sv 
+# -- Compiling module instr_reg
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[0]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[8]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[16]' might be read before written in always_comb or always @* block.
+# ** Warning: instr_reg.sv(14): (vlog-2182) 'instr_data[24]' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	instr_reg
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv instr_memory.sv 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv ALUControl.sv 
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:24 on Apr 29,2022
+# vlog -reportprogress 300 -sv ProgramCounter.sv 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 00:54:24 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_2to1.sv 
+# -- Compiling module mult_2to1
+# 
+# Top level modules:
+# 	mult_2to1
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_3to1.sv 
+# -- Compiling module mult_3to1
+# 
+# Top level modules:
+# 	mult_3to1
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv mult_4to1.sv 
+# -- Compiling module mult_4to1
+# 
+# Top level modules:
+# 	mult_4to1
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv multiplyBy4.sv 
+# -- Compiling module multiplyBy4
+# 
+# Top level modules:
+# 	multiplyBy4
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv mips_top.sv 
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:25 on Apr 29,2022
+# vlog -reportprogress 300 -sv mips_top_tb.sv 
+# -- Compiling module mips_top_tb
+# 
+# Top level modules:
+# 	mips_top_tb
+# End time: 00:54:25 on Apr 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:54:26 on Apr 29,2022, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 3
+# vsim mips_top_tb 
+# Start time: 00:54:26 on Apr 29,2022
+# Loading sv_std.std
+# Loading work.mips_top_tb
+# Loading work.mips_top
+# Loading work.controlUnit
+# Loading work.instr_reg
+# Loading work.instr_memory
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.ALUControl
+# Loading work.ProgramCounter
+# Loading work.mult_2to1
+# Loading work.mult_3to1
+# Loading work.mult_4to1
+# Loading work.sign_extend
+# Loading work.multiplyBy4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p0_i'. The port definition is at: mult_2to1.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'p1_i'. The port definition is at: mult_2to1.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'res_o'. The port definition is at: mult_2to1.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_top_tb/DUT/inst_mult_2to1_3 File: mips_top.sv Line: 110
+# End time: 00:58:21 on Apr 29,2022, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 3

@@ -1,0 +1,16 @@
+
+State Machine - |mips_top|controlUnit:inst_controlUnit|state
+Name state.JUMP_COMPLETION state.BRANCH_COMPLETION state.R_TYPE_COMPLETION state.EXECUTION state.MEM_ACCESS_SW state.WRITE_BACK state.MEM_ACCESS_LW state.MEM_ADRR_COMPUTATION state.REG_FETCH state.STATE3 state.STATE2 state.STATE1 state.RESET 
+state.RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.STATE1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.STATE2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.STATE3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.REG_FETCH 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.MEM_ADRR_COMPUTATION 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.MEM_ACCESS_LW 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.WRITE_BACK 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.MEM_ACCESS_SW 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.EXECUTION 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.R_TYPE_COMPLETION 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.BRANCH_COMPLETION 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.JUMP_COMPLETION 1 0 0 0 0 0 0 0 0 0 0 0 1 
